@@ -1,0 +1,33 @@
+[user]
+  name  = your name
+  email = your email address
+[alias]
+  st    = status -s
+  co    = checkout
+  ci    = commit
+  br    = branch
+  lg    = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+  lga    = log --decorate --graph --all  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset (%C(cyan)%ar%Creset)'
+  cat   = cat-file -p
+  diffc = diff --cached
+  addp  = add --patch
+[core]
+  autocrlf     = input
+  eol          = lf
+  excludesfile = ~/.gitignore
+  whitespace   = trailing-space,space-before-tab,tab-in-indent
+  editor = vim
+[color]
+  branch      = auto
+  diff        = auto
+  interactive = auto
+  status      = auto
+  grep        = auto
+[merge]
+  tool = vimdiff
+[pull]
+  rebase = true
+[status]
+  showUntrackedFiles = all
+[push]
+  default = matching
