@@ -152,6 +152,7 @@ endfunction
   " tpope/vim-markdown
   " tpope/vim-surround
   " mattn/emmet-vim/
+  " scrooloose/nerdtree
    
   "init the pathogen plug-ins
 execute pathogen#infect()
