@@ -153,11 +153,14 @@ endfunction
   " tpope/vim-surround
   " mattn/emmet-vim/
   " scrooloose/nerdtree
+  "
+  " snip mate
+  "  - https://github.com/garbas/vim-snipmate
+  "
+  " Drawit - http://www.vim.org/scripts/script.php?script_id=40
+  " lusty juggler and lusty explorer - https://github.com/sjbach/lusty
    
   "init the pathogen plug-ins
 execute pathogen#infect()
 
-  "other plugin that I like to use
-  " Drawit - http://www.vim.org/scripts/script.php?script_id=40
-  " lusty juggler and lusty explorer - https://github.com/sjbach/lusty
 
